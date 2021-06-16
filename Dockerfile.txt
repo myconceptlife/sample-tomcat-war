@@ -1,4 +1,4 @@
-FROM tomcat:8.5.49-jdk8-openjdk
+FROM tomcat:8.o-alpine
 
 MAINTAINER calvinmrewa@gmail.com
 ADD sampleLogin.war/usr/local/tomcat/webapps/
